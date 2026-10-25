@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "william-gilbert-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "GILBERT",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "model_terrella_magnetic_dip",
+          "description": "Computes geomagnetic dip needle inclination angle as function of magnetic latitude",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "latitude_deg": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "latitude_deg"
+            ]
+          }
+        },
+        {
+          "name": "simulate_versorium_amber_attraction",
+          "description": "Measures electrostatic charge polarity and dielectric induction force vectors",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "triboelectric_material": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "triboelectric_material"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
