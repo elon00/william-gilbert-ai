@@ -1,0 +1,14 @@
+{
+  "project": "william-gilbert-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "Gz1oxikJM2F8yXg1fHSEBGbST5w6J6XbYd5rVApc4DTf",
+  "vault_account": "57ZNtrYpzqbKRP2vsLej4QqrVu5ifnsoH4fCAMuQVkgJ",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "3DMB7t438ibXQZpnRctB1y6UZRTFAMVsoJGRUDyffiN9s6op15WD48cnMUpvx5K9t76FZNRxWK1kcdxcKpqMw4hR",
+  "account_tx": "4bpW2HPquu2JfVyY26RiwL4BCTffR57wCCd6pmaQPWoTXA8EVekU1G4GVEJHYPFcMU8xQ4eES9sddmzgp7uK8ppN",
+  "mint_tx": "2ia4gE1tohKRtBSc8qwmNPar9SCaUVSrNotLMbMqGmZSAarE95ponyk5o1wiWicH3LtSpfU11hQrxDrZHk7cmom9",
+  "solana_explorer_mint": "https://explorer.solana.com/address/Gz1oxikJM2F8yXg1fHSEBGbST5w6J6XbYd5rVApc4DTf?cluster=devnet",
+  "timestamp": "2026-10-26 17:02:38 UTC"
+}
